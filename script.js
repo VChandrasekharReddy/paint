@@ -17,7 +17,7 @@ canvas.addEventListener('mousedown', e => {
     starty = e.offsetY;
     drawing = true;
 });
-canvas.addEventListener('mouseup',l()=>{
+canvas.addEventListener('mouseup',()=>{
     drawing = false;
 })
 

@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maindiv{
+     height: fit-content;
+     width: fit-content;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.canvas{
+    height: 40vh;
+    width: 50vw;
+    border: 1px solid blue;
+}
+.btns{
+    height: fit-content;
+    width: 20vw;
+    padding: 10px;
+    display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+}
+button{
+    height: 3vh;
+    width: 10vw;
+    margin: 0px 10px ;
+}
